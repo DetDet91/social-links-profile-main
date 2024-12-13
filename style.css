@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Inter';
+    background-color:  hsl(0, 0%, 8%);
+}
+
+article{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    width: 320px;
+    max-width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+header{
+    margin: 0;
+    padding: 5px;
+    display: center;
+    
+
+}
+header img{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin: 1rem;
+}
+header h1{
+    color: hsl(0, 0%, 100%);
+}
+header h4{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+}
+header p{
+    font-size: 14px;
+    color:hsl(0, 0%, 100%) ;
+}
+
+.social-links{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.button{
+    display: block;
+    background-color: hsl(0, 0%, 20%);
+    color:hsl(0, 0%, 100%) ;
+    text-decoration: none;
+    padding: 0.75rem;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    transform: translateY(-2px);
+}
+.button:active{
+    transform: translateY(0);
+}
+.button:focus{
+    color: hsl(75, 94%, 57%);
+    outline: 2px solid hsl(75, 94%, 57%);
+    outline-offset: 2px;
+}
+
+.attribution a:focus {
+    color: red; 
+    outline: 2px solid red; 
+    outline-offset: 2px; 
+}
+
+
+.attribution{
+    font-size: 12px;
+    color: white;
+}
+.attribution a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
